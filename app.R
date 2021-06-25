@@ -327,7 +327,7 @@ ui <- dashboardPage(
     mainPanel(
       tabItems(
         tabItem(tabName = "UserGuide",
-                h5("There are four tabs for this event planning app."),
+                h5("There are five tabs for this event planning app."),
                 h4("App User Guide:"),
                 h5("This is the user manual of the app."),
                 h4("Sample Data Review:"),
@@ -353,7 +353,9 @@ ui <- dashboardPage(
                 h5("7.	Years Experience"),
                 h5(HTML('&emsp;'),"a.	1-4",HTML('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'),"b.	5-9",HTML('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'),"c.	10-14",HTML('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'),"d.	15-19",HTML('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'),"e.	20+"),
                 h4("Simulation Model:"),
-                h5("At the top left of the Simulation Model tab, the first input is your total budget in dollars. The second is a slider where you set your Risk Tolerance. This is the amount you are willing to go over if enough guests show up. Ex. Budget is $10k and Risk Tolerance is 20% means you are willing to go up to $12k. Next you will enter your Guest Base Cost. This is the amount you will pay that is fixed up to the amount of Guest Base Count, which you will set next. Following that you will set your Guest Base Count. This is how many guests you may have without incurring any additional cost over the fixed amount you set in Guest Base Cost. Next you will set the Total Guests Invited and the Guest Probability to Attend. You can base this off past experience or general industry numbers. ")
+                h5("At the top left of the Simulation Model tab, the first input is your total budget in dollars. The second is a slider where you set your Risk Tolerance. This is the amount you are willing to go over if enough guests show up. Ex. Budget is $10k and Risk Tolerance is 20% means you are willing to go up to $12k. Next you will enter your Guest Base Cost. This is the amount you will pay that is fixed up to the amount of Guest Base Count, which you will set next. Following that you will set your Guest Base Count. This is how many guests you may have without incurring any additional cost over the fixed amount you set in Guest Base Cost. Next you will set the Total Guests Invited and the Guest Probability to Attend. You can base this off past experience or general industry numbers. "),
+                h4("Acknowledgement:"),
+                h5("We listed out the referencing materials we used to build our app.")
                 
         ),
         tabItem(tabName = "SampleFiles",
