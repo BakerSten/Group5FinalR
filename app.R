@@ -314,7 +314,7 @@ recommend <- function(simulation_tbl, risk_tolerance) {
 
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Event Planning App"),
+  dashboardHeader(title = "Planning Pal"),
   dashboardSidebar(
     sidebarMenu(id = "tabs",
                 menuItem("App User Guide", tabName = "UserGuide"),
@@ -327,7 +327,7 @@ ui <- dashboardPage(
     mainPanel(
       tabItems(
         tabItem(tabName = "UserGuide",
-                h5("There are five tabs for this event planning app."),
+                h5("There are five tabs for this planning pal app."),
                 h4("App User Guide:"),
                 h5("This is the user manual of the app."),
                 h4("Sample Data Review:"),
